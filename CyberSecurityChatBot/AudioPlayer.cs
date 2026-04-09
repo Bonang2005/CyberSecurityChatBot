@@ -19,11 +19,12 @@ public static class AudioPlayer
             synthesizer.Volume = 100;//For the volume
             synthesizer.Speak("Hello, welcome to the Cybersecurity Awareness Bot. I am her to help you saty safe online.");
         }
-        catch (Exception ex) 
+        catch (Exception ex)
         {
             ForegroundColor = ConsoleColor.White;
             WriteLine("Audio could not play the welcoming " + ex.Message);
             ResetColor();
-            
+
+        }
     }
 }
