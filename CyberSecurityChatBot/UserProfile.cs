@@ -6,7 +6,7 @@ namespace CyberSecurityChatBot
 {
     public class UserProfile
     {
-        public string Name { get; set; }//Automatic properties 
+        public string Name { get; set; }//Automatic properties
         public int MessageCount {  get; set; }
         public string Topic { get; set; }
 
