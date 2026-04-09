@@ -4,7 +4,18 @@ using System.Text;
 
 namespace CyberSecurityChatBot
 {
-    internal class UserProfile
+    public class UserProfile
     {
+        public string Name { get; set; }//Automatic properties 
+        public int MessageCount {  get; set; }
+        public string Topic { get; set; }
+
+        public UserProfile(string name)// Contructor
+        {
+            Name = name;
+            MessageCount = 0;
+            Topic = string.Empty;
+
+        }
     }
 }
