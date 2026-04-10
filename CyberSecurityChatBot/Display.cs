@@ -11,11 +11,11 @@ namespace CyberSecurityChatBot
         public static void ShowLogo()
         {
             Clear();
-            ForegroundColor = ConsoleColor.Green;
+            ForegroundColor = ConsoleColor.DarkYellow;
 
             WriteLine("  ____                   ____      _               ____        _   \r\n | __ )  ___  ___       / ___|   _| |__   ___ _ __| __ )  ___ | |_ \r\n |  _ \\ / _ \\/ _ \\_____| |  | | | | '_ \\ / _ \\ '__|  _ \\ / _ \\| __|\r\n | |_) |  __/  __/_____| |__| |_| | |_) |  __/ |  | |_) | (_) | |_ \r\n |____/ \\___|\\___|      \\____\\__, |_.__/ \\___|_|  |____/ \\___/ \\__|\r\n                             |___/                                 ");
             WriteLine("              Keeping you safe online           ");
-            WriteLine("                Cybersecurity Awareness Bot      ");
+            WriteLine("               Cybersecurity Awareness Bot      ");
             ResetColor();
         }
         public static void ShowWelcome(string name)
@@ -32,7 +32,7 @@ namespace CyberSecurityChatBot
         }
         public static void Chat(string message, ConsoleColor colour = ConsoleColor.White)
         {
-            ForegroundColor = ConsoleColor.Green;
+            ForegroundColor = ConsoleColor.Yellow;
             WriteLine("[CyberBot]");
             ForegroundColor = colour;
             foreach (char c in message)  // for the typing effect
@@ -44,8 +44,8 @@ namespace CyberSecurityChatBot
         }
         public static void ShowDivider()
         {
-            ForegroundColor = ConsoleColor.Blue;
-            WriteLine("-----------------------------------------");
+            ForegroundColor = ConsoleColor.White;
+            WriteLine("");
             ResetColor();
 
         }
@@ -59,12 +59,7 @@ namespace CyberSecurityChatBot
         {
             WriteLine();
             ForegroundColor = ConsoleColor.Yellow;
-            WriteLine("=======================================================");
-            WriteLine("                 SESSION SUMMARY                          ");
-            WriteLine("=======================================================");
-            WriteLine("    Name        : {user.Name}".PadRight(44) + ".");
-            WriteLine("    Messages    : {user.MessageCount}".PadRight(44) + ".");
-            WriteLine("    Last Topic  : {user.LastTopic}".PadRight(44) + ".");
+           
             WriteLine("=======================================================");
             WriteLine(" REMEMBER! ALWAYS BE CAUTIUS ONLINE !!");
             WriteLine("=======================================================");

@@ -54,7 +54,7 @@ namespace CyberSecurityChatBot
                 else if (lowerInput.Contains("phishing"))
                 {
                     user.Topic = "Phishing";
-                    Display.Chat("Phishing Tips: Check the sender email address.\n Hover your mouse before you click.\n Do not open attachments.", ConsoleColor.DarkBlue);
+                    Display.Chat("Phishing Tips: \n\nCheck the sender email address.\n\n -Hover your mouse before you click.\n\n -Do not open attachments.", ConsoleColor.DarkBlue);
                 }
                 else if (lowerInput.Contains("browsing"))
                 {
