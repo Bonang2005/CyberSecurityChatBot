@@ -21,7 +21,7 @@ namespace CyberSecurityChatBot
         public static void ShowWelcome(string name)
         {
             WriteLine();
-            ForegroundColor = ConsoleColor.DarkGreen;
+            ForegroundColor = ConsoleColor.DarkYellow;
             WriteLine("==============================================================");
             WriteLine(" Welcome," + name + "!");
             WriteLine("I am your Cybersecurity Awareness bot.");
@@ -32,7 +32,7 @@ namespace CyberSecurityChatBot
         }
         public static void Chat(string message, ConsoleColor colour = ConsoleColor.White)
         {
-            ForegroundColor = ConsoleColor.Yellow;
+            ForegroundColor = ConsoleColor.Magenta;
             WriteLine("[CyberBot]");
             ForegroundColor = colour;
             foreach (char c in message)  // for the typing effect
@@ -44,7 +44,7 @@ namespace CyberSecurityChatBot
         }
         public static void ShowDivider()
         {
-            ForegroundColor = ConsoleColor.White;
+            ForegroundColor = ConsoleColor.Yellow;
             WriteLine("");
             ResetColor();
 
@@ -58,7 +58,7 @@ namespace CyberSecurityChatBot
         public static void ShowExit(UserProfile user)
         {
             WriteLine();
-            ForegroundColor = ConsoleColor.Yellow;
+            ForegroundColor = ConsoleColor.DarkYellow;
            
             WriteLine("=======================================================");
             WriteLine(" REMEMBER! ALWAYS BE CAUTIUS ONLINE !!");
