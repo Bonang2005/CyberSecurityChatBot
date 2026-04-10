@@ -58,7 +58,7 @@ namespace CyberSecurityChatBot
         public static void ShowExit(UserProfile user)
         {
             WriteLine();
-            ForegroundColor = ConsoleColor.Magenta;
+            ForegroundColor = ConsoleColor.DarkYellow;
            
             WriteLine("=======================================================");
             WriteLine(" REMEMBER! ALWAYS BE CAUTIUS ONLINE !!");

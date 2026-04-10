@@ -30,7 +30,7 @@ namespace CyberSecurityChatBot
                 string lowerInput = input.ToLower();
                 if (lowerInput == "exit")
                 {
-                    Display.Chat("Goodbye," + user.Name + ". Stay Safe Online.", ConsoleColor.Magenta);
+                    Display.Chat("Goodbye," + user.Name + ". Stay Safe Online.", ConsoleColor.DarkYellow);
                     Display.ShowExit(user);
                     running = false;
                 }
