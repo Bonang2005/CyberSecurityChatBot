@@ -20,3 +20,6 @@ while (string.IsNullOrEmpty(name))
     Write("Enter your name:");
     name = ReadLine();
 }
+name = char.ToUpper(name[0]) + name.Substring(1). ToLower();
+Display.ShowWelcome(name);
+Chatbot.Start(name);//To start the chatbot
