@@ -11,6 +11,7 @@ AudioPlayer.playgreeting();
 Display.ShowLogo();
 WriteLine("Enter your name:");
 string name = ReadLine();
+ForegroundColor = ConsoleColor.Cyan;
 
 while (string.IsNullOrEmpty(name))
 {

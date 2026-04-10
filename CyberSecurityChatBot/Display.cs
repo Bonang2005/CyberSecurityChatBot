@@ -11,17 +11,17 @@ namespace CyberSecurityChatBot
         public static void ShowLogo()
         {
             Clear();
-            ForegroundColor = ConsoleColor.DarkYellow;
+            ForegroundColor = ConsoleColor.Magenta;
 
             WriteLine("  ____                   ____      _               ____        _   \r\n | __ )  ___  ___       / ___|   _| |__   ___ _ __| __ )  ___ | |_ \r\n |  _ \\ / _ \\/ _ \\_____| |  | | | | '_ \\ / _ \\ '__|  _ \\ / _ \\| __|\r\n | |_) |  __/  __/_____| |__| |_| | |_) |  __/ |  | |_) | (_) | |_ \r\n |____/ \\___|\\___|      \\____\\__, |_.__/ \\___|_|  |____/ \\___/ \\__|\r\n                             |___/                                 ");
             WriteLine("              Keeping you safe online           ");
-            WriteLine("               Cybersecurity Awareness Bot      ");
+            WriteLine("              Cybersecurity Awareness Bot      ");
             ResetColor();
         }
         public static void ShowWelcome(string name)
         {
             WriteLine();
-            ForegroundColor = ConsoleColor.DarkYellow;
+            ForegroundColor = ConsoleColor.DarkMagenta;
             WriteLine("==============================================================");
             WriteLine(" Welcome," + name + "!");
             WriteLine("I am your Cybersecurity Awareness bot.");
@@ -32,7 +32,7 @@ namespace CyberSecurityChatBot
         }
         public static void Chat(string message, ConsoleColor colour = ConsoleColor.White)
         {
-            ForegroundColor = ConsoleColor.Magenta;
+            ForegroundColor = ConsoleColor.Cyan;
             WriteLine("[CyberBot]");
             ForegroundColor = colour;
             foreach (char c in message)  // for the typing effect
