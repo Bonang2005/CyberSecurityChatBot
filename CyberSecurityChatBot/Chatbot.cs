@@ -25,16 +25,12 @@ namespace CyberSecurityChatBot
                     Display.ShowError("Please enter a message.");
                     continue;
                 }
-                if (input.Trim().Length > 200)
-                {
-                    Display.ShowError("Message is too long. Please keep it under 200 Charecters.");
-                    continue;
-                }
+                
                 user.MessageCount++;
                 string lowerInput = input.ToLower();
                 if (lowerInput == "exit")
                 {
-                    Display.Chat("Goodbye," + user.Name + ". Stay Safe Online.", ConsoleColor.Yellow);
+                    Display.Chat("Goodbye," + user.Name + ". Stay Safe Online.", ConsoleColor.DarkYellow);
                     Display.ShowExit(user);
                     running = false;
                 }
@@ -50,22 +46,22 @@ namespace CyberSecurityChatBot
                 }
                 else if (lowerInput.Contains("help") || lowerInput.Contains("what can i ask"))
                 {
-                    Display.Chat("Here are the topics I can help with:\n\n  password  - Strong passwords and 2FA\n  phishing  - Spotting fake emails\n  browsing  - Safe browsing and VPNs\n  privacy   - Protecting your personal data", ConsoleColor.Cyan);
+                    Display.Chat("Here are the topics I can help with:\n\n  password  - Strong passwords \n  phishing  - Spotting fake emails\n  browsing  - Safe browsing ", ConsoleColor.White);
                 }
                 else if (lowerInput.Contains("password"))
                 {
                     user.Topic = "Passwords";
-                    Display.Chat("Password tips:\n\n- Use at least 12 characters.\n\n- Never reuse passwords.", ConsoleColor.Blue);
+                    Display.Chat("Password tips:\n\n- Use at least 12 characters.\n\n- Never reuse passwords.\n\n- Avoid using personal details", ConsoleColor.White);
                 }
                 else if (lowerInput.Contains("phishing"))
                 {
                     user.Topic = "Phishing";
-                    Display.Chat("Phishing Tips: \n\n - Check the sender email address.\n\n - Hover your mouse before you click.\n\n - Do not open attachments.", ConsoleColor.Cyan);
+                    Display.Chat("Phishing Tips: \n\n- Check the sender email address.\n\n- Hover your mouse before you click.\n\n- Do not open attachments.", ConsoleColor.White);
                 }
                 else if (lowerInput.Contains("browsing"))
                 {
                     user.Topic = "Safe Browsing";
-                    Display.Chat("Safe Browsing Tips:\n\n - Always keep software and browser updated.\n\n - Use a password manager.\n\n - Verify URLs and Website Legitimacy.");
+                    Display.Chat("Safe Browsing Tips:\n\n- Always keep software and browser updated.\n\n- Use a password manager.\n\n- Verify URLs and Website Legitimacy.");
                 }
                 else
                 {
