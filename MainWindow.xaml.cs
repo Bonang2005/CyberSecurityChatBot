@@ -14,7 +14,7 @@ namespace ChatSecurityChatBot_2
             InitializeComponent();
         }
 
-        // This runs when the window loads
+        
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             // Play voice greeting
@@ -33,22 +33,21 @@ namespace ChatSecurityChatBot_2
             // String manipulation - capitalise first letter
             name = char.ToUpper(name[0]) + name.Substring(1).ToLower();
 
-            // Create user profile
+            
             user = new UserProfile(name);
 
-            // Shows welcome message
             AddBotMessage("Welcome, " + user.Name + "!");
             AddBotMessage("Type 'help' to see what I can do.");
             AddBotMessage("Type 'bye' to exit.");
         }
 
-        // This runs when the Send button is clicked
+       
         private void sendButton_Click(object sender, RoutedEventArgs e)
         {
             SendMessage();
         }
 
-        // This runs when Enter is pressed in the input box
+        
         private void userInput_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == System.Windows.Input.Key.Enter)
@@ -90,11 +89,11 @@ namespace ChatSecurityChatBot_2
                 Application.Current.Shutdown();
             }
 
-            // Scroll to bottom
+           
             chatScroller.ScrollToBottom();
         }
 
-        // This method adds a user message with timestamp
+        // For timestamp
         private void AddUserMessage(string message)
         {
             TextBlock text = new TextBlock();

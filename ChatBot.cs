@@ -72,7 +72,7 @@ namespace ChatSecurityChatBot_2
             return "I love your curiosity! Here is something interesting: " + GetRandomResponse(browsingResponses);
         }
 
-        // Memory and recall - follow up questions
+        //  follow up questions
         if (lowerInput.Contains("tell me more") || lowerInput.Contains("give me another tip") || lowerInput.Contains("more"))
         {
             if (user.FavouriteTopic == "Passwords")
@@ -87,23 +87,23 @@ namespace ChatSecurityChatBot_2
                 return "What topic would you like more tips on? Type password, phishing, browsing or privacy.";
         }
 
-        // Goodbye
+        
         if (lowerInput == "exit" || lowerInput == "bye")
             return "Goodbye " + user.Name + "! Stay safe online!";
 
-        // Greeting
+        
         if (lowerInput == "hello" || lowerInput == "hi" || lowerInput == "hey")
             return "Hey " + user.Name + "! How can I help you stay secure today?";
 
-        // How are you
+        
         if (lowerInput.Contains("how are you"))
             return "I am running at full security capacity! How can I help you?";
 
-        // Purpose
+        
         if (lowerInput.Contains("purpose") || lowerInput.Contains("what do you do"))
             return "I am a Cybersecurity Awareness Chatbot! I help you learn about password safety, phishing, safe browsing and privacy.";
 
-        // Help menu
+        
         if (lowerInput.Contains("help") || lowerInput.Contains("what can i ask"))
             return "Here are the topics I can help with:\n\n" +
                    "  password  - Strong passwords and 2FA\n" +

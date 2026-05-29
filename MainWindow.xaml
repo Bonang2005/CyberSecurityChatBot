@@ -13,7 +13,7 @@
             <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
-        <!-- Header with logo and image -->
+        <!--  logo and image -->
         <Border Grid.Row="0" Background="#16213e" Margin="10" CornerRadius="10">
             <Grid>
                 <Grid.ColumnDefinitions>
