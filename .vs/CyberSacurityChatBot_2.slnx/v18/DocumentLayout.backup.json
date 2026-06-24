@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|c:\\users\\ella\\source\\repos\\cybersacuritychatbot_2\\cybersacuritychatbot_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|solutionrelative:cybersacuritychatbot_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|c:\\users\\ella\\source\\repos\\cybersacuritychatbot_2\\cybersacuritychatbot_2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|solutionrelative:cybersacuritychatbot_2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|c:\\users\\ella\\source\\repos\\cybersacuritychatbot_2\\cybersacuritychatbot_2\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|solutionrelative:cybersacuritychatbot_2\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|c:\\users\\ella\\source\\repos\\cybersacuritychatbot_2\\cybersacuritychatbot_2\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|solutionrelative:cybersacuritychatbot_2\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|c:\\users\\ella\\source\\repos\\cybersacuritychatbot_2\\cybersacuritychatbot_2\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC31027-E599-F5D3-FE35-3755E0E06322}|CyberSacurityChatBot_2\\CyberSacurityChatBot_2.csproj|solutionrelative:cybersacuritychatbot_2\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CyberSacurityChatBot_2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CyberSacurityChatBot_2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwGUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:10:07.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CyberSacurityChatBot_2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\MainWindow.xaml",
+              "RelativeToolTip": "CyberSacurityChatBot_2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T20:10:08.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\UserProfile.cs",
+              "RelativeDocumentMoniker": "CyberSacurityChatBot_2\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\UserProfile.cs",
+              "RelativeToolTip": "CyberSacurityChatBot_2\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:52:27.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatBot.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\ChatBot.cs",
+              "RelativeDocumentMoniker": "CyberSacurityChatBot_2\\ChatBot.cs",
+              "ToolTip": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\ChatBot.cs",
+              "RelativeToolTip": "CyberSacurityChatBot_2\\ChatBot.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAgwJIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:51:59.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\AudioPlayer.cs",
+              "RelativeDocumentMoniker": "CyberSacurityChatBot_2\\AudioPlayer.cs",
+              "ToolTip": "C:\\Users\\Ella\\source\\repos\\CyberSacurityChatBot_2\\CyberSacurityChatBot_2\\AudioPlayer.cs",
+              "RelativeToolTip": "CyberSacurityChatBot_2\\AudioPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:52:54.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
