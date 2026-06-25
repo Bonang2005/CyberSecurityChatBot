@@ -1,12 +1,12 @@
 ﻿namespace CybersecurityChatbot_Part3
 {
-    // This class handles all the chatbot responses
+    
     public static class ChatBot
     {
-        // Random object for picking random responses
+        
         private static Random random = new Random();
 
-        // Lists of random responses for each topic
+        // Lists responses for each topic
         private static List<string> passwordResponses = new List<string>
         {
             "Use at least 12 characters with letters, numbers and symbols.",
@@ -70,7 +70,7 @@
                 return "I love your curiosity! Here is something interesting: " + GetRandomResponse(browsingResponses);
             }
 
-            // Memory and recall - follow up questions
+            
             if (lowerInput.Contains("tell me more") || lowerInput.Contains("give me another tip") || lowerInput.Contains("more"))
             {
                 if (user.FavouriteTopic == "Passwords")
@@ -85,7 +85,7 @@
                     return "What topic would you like more tips on? Type password, phishing, browsing or privacy.";
             }
 
-            // Goodbye
+           
             if (lowerInput == "exit" || lowerInput == "bye")
                 return "Goodbye " + user.Name + "! Stay safe online!";
 

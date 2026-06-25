@@ -35,3 +35,4 @@ C:\Users\Ella\source\repos\CybersecurityChatbot_Part3\CybersecurityChatbot_Part3
 C:\Users\Ella\source\repos\CybersecurityChatbot_Part3\CybersecurityChatbot_Part3\obj\Debug\net8.0-windows\CybersecurityChatbot_Part3.pdb
 C:\Users\Ella\source\repos\CybersecurityChatbot_Part3\CybersecurityChatbot_Part3\obj\Debug\net8.0-windows\CybersecurityChatbot_Part3.genruntimeconfig.cache
 C:\Users\Ella\source\repos\CybersecurityChatbot_Part3\CybersecurityChatbot_Part3\obj\Debug\net8.0-windows\ref\CybersecurityChatbot_Part3.dll
+C:\Users\Ella\source\repos\CybersecurityChatbot_Part3\CybersecurityChatbot_Part3\bin\Debug\net8.0-windows\greeting.wav

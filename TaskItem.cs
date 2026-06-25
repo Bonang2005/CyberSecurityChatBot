@@ -1,6 +1,6 @@
 ﻿namespace CybersecurityChatbot_Part3
 {
-    // This class stores information about a single task
+    
     public class TaskItem
     {
         // Automatic properties

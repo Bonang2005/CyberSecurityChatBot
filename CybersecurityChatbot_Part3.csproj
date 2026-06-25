@@ -13,4 +13,10 @@
     <PackageReference Include="System.Speech" Version="10.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="greeting.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

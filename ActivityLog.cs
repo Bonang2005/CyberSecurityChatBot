@@ -1,6 +1,6 @@
 ﻿namespace CybersecurityChatbot_Part3
 {
-    // This class records all actions the bot has taken
+    
     public static class ActivityLog
     {
         // List to store all log entries

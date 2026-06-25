@@ -2,19 +2,19 @@
 
 namespace CybersecurityChatbot_Part3
 {
-    // This class handles all database operations
+
     public static class DatabaseHelper
     {
         // Connection string
         private static string connectionString =
             "Server=127.0.0.1;Database=cybersecurity_db;Uid=root;Pwd=root1234;";
 
-        // Create the database and table if they don't exist
+        
         public static void InitialiseDatabase()
         {
             try
             {
-                string setupConnection = "Server=127.0.0.1;Uid=root;Pwd=root1234;";
+                string setupConnection = "Server=12;Uid=root;Pwd=root1234;";
 
                 using (MySqlConnection conn = new MySqlConnection(setupConnection))
                 {
@@ -50,7 +50,7 @@ namespace CybersecurityChatbot_Part3
             }
         }
 
-        // Add a task to the database
+        // Adding A task to the database
         public static void AddTask(TaskItem task)
         {
             try
@@ -59,11 +59,11 @@ namespace CybersecurityChatbot_Part3
                 {
                     conn.Open();
                     string query = "INSERT INTO tasks (title, description, reminder) " +
-                                   "VALUES (@title, @description, @reminder)";
+                                   "VALUES (title, description, reminder)";
                     MySqlCommand cmd = new MySqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@title", task.Title);
-                    cmd.Parameters.AddWithValue("@description", task.Description);
-                    cmd.Parameters.AddWithValue("@reminder", task.Reminder);
+                    cmd.Parameters.AddWithValue("title", task.Title);
+                    cmd.Parameters.AddWithValue("description", task.Description);
+                    cmd.Parameters.AddWithValue("reminder", task.Reminder);
                     cmd.ExecuteNonQuery();
                     ActivityLog.Log("Task added: " + task.Title);
                 }
@@ -74,7 +74,7 @@ namespace CybersecurityChatbot_Part3
             }
         }
 
-        // Get all tasks from the database
+        //
         public static List<TaskItem> GetAllTasks()
         {
             List<TaskItem> tasks = new List<TaskItem>();
@@ -108,7 +108,7 @@ namespace CybersecurityChatbot_Part3
             return tasks;
         }
 
-        // Mark a task as completed
+        // Marks task as completed
         public static void CompleteTask(int id)
         {
             try

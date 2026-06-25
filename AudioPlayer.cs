@@ -1,27 +1,30 @@
-﻿using System.Speech.Synthesis;
+﻿using System.Media;
 
 namespace CybersecurityChatbot_Part3
 {
-    // This class plays the voice greeting when the app starts
+    
     public static class AudioPlayer
     {
         public static void PlayGreeting()
         {
             try
             {
-                // Create a speech synthesizer
-                SpeechSynthesizer synthesizer = new SpeechSynthesizer();
+                //  WAV file
+                string wavFile = System.IO.Path.Combine(
+                    AppDomain.CurrentDomain.BaseDirectory, "greeting.wav");
 
-                // Set the volume and speed
-                synthesizer.Volume = 100;
-                synthesizer.Rate = 0;
+                
+                if (!System.IO.File.Exists(wavFile))
+                    return;
 
-                // Speak the greeting
-                synthesizer.Speak("Hello! Welcome to the Cybersecurity Awareness Chatbot. I am here to help you stay safe online.");
+                // Play the WAV file
+                SoundPlayer player = new SoundPlayer(wavFile);
+                player.Play();
             }
-            catch (Exception ex)
+            catch
             {
-                System.Windows.MessageBox.Show("Could not play greeting: " + ex.Message);
+                
+                return;
             }
         }
     }
